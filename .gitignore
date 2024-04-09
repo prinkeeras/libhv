@@ -53,7 +53,7 @@ examples/protorpc/generated
 *.log
 *.db
 
-include
+# include
 lib
 bin
 tmp
