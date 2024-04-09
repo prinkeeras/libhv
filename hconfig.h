@@ -10,7 +10,7 @@
 #endif
 
 #ifndef HAVE_STDATOMIC_H
-#define HAVE_STDATOMIC_H 0
+#define HAVE_STDATOMIC_H 1
 #endif
 
 #ifndef HAVE_SYS_TYPES_H
@@ -34,7 +34,7 @@
 #endif
 
 #ifndef HAVE_ENDIAN_H
-#define HAVE_ENDIAN_H 1
+#define HAVE_ENDIAN_H 0
 #endif
 
 #ifndef HAVE_SYS_ENDIAN_H
@@ -82,7 +82,7 @@
 #endif
 
 #ifndef HAVE_EVENTFD
-#define HAVE_EVENTFD 1
+#define HAVE_EVENTFD 0
 #endif
 
 #ifndef HAVE_SETPROCTITLE
@@ -96,7 +96,7 @@
 /* #undef ENABLE_UDS */
 /* #undef USE_MULTIMAP */
 
-#define WITH_WEPOLL     1
+/* #undef WITH_WEPOLL */
 /* #undef WITH_KCP */
 
 #endif // HV_CONFIG_H_
